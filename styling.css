@@ -1,0 +1,99 @@
+
+    /* Button in the top-right corner */
+    .profile {
+        position: fixed;  /* Fixes the button in place */
+        top: 10px;        /* 10px from the top of the viewport */
+        right: 10px;      /* 10px from the right of the viewport */
+        padding: 5px 5px;
+        background-color: #00ff6a;
+        color: rgb(165, 29, 113);
+        font-size: 16px;
+        border:34;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+      }
+  
+      .profile:hover {
+        background-color: #181183;
+      }
+      .home {
+       position: fixed;  /* Fixes the button in place */
+        top: 10px;        /* 10px from the top of the viewport */
+        left: 10px;      /* 10px from the right of the viewport */
+        padding: 5px 5px;
+        background-color: #9ee023;
+        color: rgb(165, 29, 113);
+        font-size: 16px;
+        border: 12px;;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s; 
+      }
+      .home:hover {
+          background-color: aqua;
+      }
+      .notifications{
+        position: fixed;
+        top:65px;
+        right:10px;
+        padding: 5px 5px;
+        cursor: pointer;
+      }
+      body {
+              font-family: Arial, sans-serif;
+              font-family: Arial, sans-serif; 
+              margin: 20px;
+              background-size:cover;
+              background-repeat:no-repeat;
+              background-attachment: fixed;
+              background-color: black;
+          }
+
+       
+        ;
+    
+      .tab {
+           position: relative;
+              display: inline-block;
+              padding: 10px 20px;
+              cursor: pointer;
+              background-color: #f1f1f1;
+              border: 1px solid #ccc;
+              margin-right: 5px;
+          }
+      .tab.active {
+              background-color: #ccc;
+          }
+      .tab-content {
+              display: none;
+              border: 1px solid #ccc;
+              padding: 20px;
+              margin-top: -1px; /* To overlap border */
+          }
+      .tab-content.active {
+              display: block;
+          }
+       
+        h1, h2 { 
+            text-align: center; 
+         } 
+        form {
+             margin-bottom: 20px; 
+            }
+        label {
+            display: inline-block; width: 150px; 
+        }
+        input { 
+            margin-bottom: 10px; 
+        } 
+        table { 
+        width: 100%; border-collapse: collapse; 
+      } 
+      th, td {
+         border: 1px solid #ddd; padding: 8px; text-align: left; 
+        }
+     th { 
+        background-color: #f2f2f2;
+       }
+
